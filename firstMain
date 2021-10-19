@@ -1,0 +1,17 @@
+"""
+Semua sintaks pemrograman terdiri dari:
+1. Sekuensial : langkah berurutan
+2. Percabangan : langkah melompat jika terpenuhi
+3.Perulangan : mengulang langkah selama kondisi belum terpenuhi
+"""
+# sekuensial
+
+nilai = int(input('masukan nilai anda: '))
+
+print('nilai anda adalah', nilai,'\n')
+
+if nilai > 70:
+    print('selamat anda lulus')
+else:
+    print('maaf,anda tidak lulus')
+
